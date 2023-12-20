@@ -1,0 +1,112 @@
+[debug] [2023-12-03T13:45:04.005Z] ----------------------------------------------------------------------
+[debug] [2023-12-03T13:45:04.011Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Zaher Al-ali\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-03T13:45:04.012Z] CLI Version:   12.9.1
+[debug] [2023-12-03T13:45:04.014Z] Platform:      win32
+[debug] [2023-12-03T13:45:04.015Z] Node Version:  v18.18.0
+[debug] [2023-12-03T13:45:04.017Z] Time:          Sun Dec 03 2023 05:45:04 GMT-0800 (Pacific Standard Time)
+[debug] [2023-12-03T13:45:04.018Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-03T13:45:04.032Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-12-03T13:45:04.162Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-03T13:45:04.163Z] > authorizing via signed-in user (eng.mohamad110@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\github mohamad\header
+
+[debug] [2023-12-03T13:45:04.430Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: Client network socket disconnected before secure TLS connection was established
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-12-03T13:45:04.433Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-03T13:45:31.371Z] > refreshing access token with scopes: []
+[debug] [2023-12-03T13:45:31.377Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-12-03T13:45:31.378Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-12-03T13:45:31.778Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-12-03T13:45:31.779Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-12-03T13:45:31.806Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-12-03T13:45:32.233Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 403
+[debug] [2023-12-03T13:45:32.233Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-12-03T13:45:32.234Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2023-12-03T13:45:32.577Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\Zaher Al-ali\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:257:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-12-03T13:57:34.153Z] ----------------------------------------------------------------------
+[debug] [2023-12-03T13:57:34.161Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Zaher Al-ali\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-03T13:57:34.162Z] CLI Version:   12.9.1
+[debug] [2023-12-03T13:57:34.163Z] Platform:      win32
+[debug] [2023-12-03T13:57:34.164Z] Node Version:  v18.18.0
+[debug] [2023-12-03T13:57:34.167Z] Time:          Sun Dec 03 2023 05:57:34 GMT-0800 (Pacific Standard Time)
+[debug] [2023-12-03T13:57:34.167Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-03T13:57:34.179Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-12-03T13:57:34.422Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-03T13:57:34.424Z] > authorizing via signed-in user (eng.mohamad110@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\github mohamad\header
+
+[debug] [2023-12-03T13:57:35.473Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: Client network socket disconnected before secure TLS connection was established
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-12-03T13:57:35.477Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-03T13:57:42.490Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-12-03T13:57:44.362Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 403
+[debug] [2023-12-03T13:57:44.362Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-12-03T13:57:44.362Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2023-12-03T13:57:46.064Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\Zaher Al-ali\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:257:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-12-03T14:00:07.359Z] ----------------------------------------------------------------------
+[debug] [2023-12-03T14:00:07.373Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Zaher Al-ali\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-03T14:00:07.374Z] CLI Version:   12.9.1
+[debug] [2023-12-03T14:00:07.375Z] Platform:      win32
+[debug] [2023-12-03T14:00:07.376Z] Node Version:  v18.18.0
+[debug] [2023-12-03T14:00:07.379Z] Time:          Sun Dec 03 2023 06:00:07 GMT-0800 (Pacific Standard Time)
+[debug] [2023-12-03T14:00:07.379Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-03T14:00:07.392Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-12-03T14:00:07.539Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-03T14:00:07.540Z] > authorizing via signed-in user (eng.mohamad110@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\github mohamad\header
+
+[debug] [2023-12-03T14:00:07.906Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: Client network socket disconnected before secure TLS connection was established
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-12-03T14:00:07.910Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json

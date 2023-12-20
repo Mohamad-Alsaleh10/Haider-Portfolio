@@ -1,0 +1,40 @@
+.news-ticker-container {
+    overflow: hidden;
+    background: #FF014F;
+    color: white;
+    padding: 5px;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    width: calc(100% );
+    position: fixed;
+    z-index: 17;
+  }
+  
+  .news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .news-list li {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+    font-size: 16px;
+    /* يمكنك تعديل أنماط التنسيق حسب احتياجاتك */
+  }
+
+
+
+.new-item-m p{
+  padding: 0 10px;
+}
